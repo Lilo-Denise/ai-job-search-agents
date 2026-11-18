@@ -1,0 +1,28 @@
+# Job Search Project: shared rules (example)
+
+This file loads in every session. Agent specs add role-specific rules; skills add step-by-step methods.
+
+## Candidate (fictional)
+
+Alex Rivera. Target: Growth and GTM strategy roles in US tech.
+
+## Load in order
+
+@./rules/01_identity_and_positioning.md
+@./rules/02_target_roles.md
+@./rules/03_truth_rules.md
+@./rules/04_workflows.md
+@./rules/05_tone.md
+@./rules/06_file_map.md
+
+## Hard rules
+
+1. Facts come only from `sources/master_cv.docx`, `sources/master_profile.md` and `sources/story_bank.md`. If a fact is missing, ask. Never write it.
+2. Score fit against the job post's literal text. Say clearly when a role is a weak fit.
+3. CVs are one page.
+4. Agents draft. The candidate approves and sends.
+5. Return the full path of the file you wrote. Do not create copies elsewhere.
+
+## Change history
+
+Each rule change gets a dated line here with the reason.
